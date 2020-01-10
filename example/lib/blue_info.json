@@ -1,0 +1,22 @@
+{
+  "head": {
+    "tradeId": "queryMiaoDouAccess",
+    "timestamp": "2020-01-06 18:11:34",
+    "respCode": "0",
+    "respMsg": "成功"
+  },
+  "body": {
+    "resultCode": null,
+    "officeTelephone": null,
+    "list": [
+      {
+        "deviceName": "MD_43266168A",
+        "writeUuid": "49535343-8841-43F4-A8D4-ECBE34729BB3",
+        "serviceUuid": "49535343-FE7D-4AE5-8FA9-9FAFD205E455",
+        "notifyUuid": "49535343-1E4D-4BD9-BA61-23C647249616",
+        "keyContent": "4441aabd2551da5bdd5e9c91e7f0940ee81d30304441212e93cc55a9e4427926f643d699c9cf30314441ed24d32f947d486df47a0c28f5771e4e30324441cd41608733632a514677e18224d2851730334441490aa503282e6a4aaff4e9430c1a5dfb30344441e9e6542f13d982bfccd2a6448efe21cb30354441e21c01bdeb6875e329a35a808efd9ea94646",
+        "callbackSuccess": "4441300000000000000000000000000000004646"
+      }
+    ]
+  }
+}
