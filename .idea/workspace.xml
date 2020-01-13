@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c042eaf5-0516-4681-ab9f-ebd8875cbcf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -431,6 +429,14 @@
       <option name="presentableId" value="Default" />
       <updated>1577961183291</updated>
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1578912831851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578912831851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -470,17 +476,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6845361" visible="true" weight="0.18937768" />
-      <window_info id="Structure" order="3" sideWeight="0.31546393" side_tool="true" visible="true" weight="0.18937768" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.68590456" visible="true" weight="0.18937768" />
+      <window_info id="Structure" order="3" sideWeight="0.31409544" side_tool="true" visible="true" weight="0.18937768" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.4617092" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.4617092" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Statistic" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3618202" />
@@ -499,6 +506,10 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Codota" order="5" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/example/android/app/src/main/java/com/pauldemarco/flutter_blue_example/MainActivity.java">
