@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c042eaf5-0516-4681-ab9f-ebd8875cbcf4" name="Default Changelist" comment="" />
+    <list default="true" id="c042eaf5-0516-4681-ab9f-ebd8875cbcf4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,98 +13,225 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Y2J7N17A14008542" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_26" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.66206443">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="243" column="55" selection-start-line="243" selection-start-column="55" selection-end-line="243" selection-end-column="55" />
-                  <folding>
-                    <element signature="e#0#20#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/example/lib/blue_info.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
-                  <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/src/bluetooth_characteristic.dart">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="86">
-                  <caret line="103" column="43" lean-forward="true" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
-                  <folding>
-                    <element signature="e#767#832#0" />
-                    <element signature="e#972#980#0" />
-                    <element signature="e#1021#1033#0" />
-                    <element signature="e#1065#1080#0" />
-                    <element signature="e#1171#1195#0" />
-                    <element signature="e#1309#1312#0" />
-                    <element signature="e#1396#1410#0" />
-                    <element signature="e#1451#1460#0" />
-                    <element signature="e#1592#1638#0" />
-                    <element signature="e#1761#1769#0" />
-                    <element signature="e#1889#1907#0" />
-                    <element signature="e#2070#2104#0" />
-                    <element signature="e#2362#2540#0" />
-                    <element signature="e#2617#3666#0" />
-                    <element signature="e#2844#2981#0" />
-                    <element signature="e#3045#3092#0" />
-                    <element signature="e#3155#3204#0" />
-                    <element signature="e#3323#3331#0" />
-                    <element signature="e#5834#5878#0" />
-                    <element signature="e#5941#5987#0" />
-                    <element signature="e#6091#6099#0" />
-                    <element signature="e#6380#6398#0" />
-                    <element signature="e#6547#6609#0" />
-                    <element signature="e#6653#7851#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1493">
-                  <caret line="353" column="26" lean-forward="true" selection-start-line="353" selection-start-column="26" selection-end-line="353" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="86">
-                  <caret line="201" selection-start-line="201" selection-end-line="201" />
-                  <folding>
-                    <element signature="e#0#20#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="181" column="62" selection-start-line="181" selection-start-column="62" selection-end-line="181" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/lib/blue_info.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/flutter/packages/flutter/lib/src/services/message_codecs.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="559" column="17" selection-start-line="559" selection-start-column="17" selection-end-line="559" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="353" column="40" selection-start-line="353" selection-start-column="40" selection-end-line="353" selection-end-column="40" />
+              <folding>
+                <element signature="docComment;class#FlutterBluePlugin#0" />
+                <element signature="docComment;method#registerWith#0;class#FlutterBluePlugin#0" />
+                <element signature="method#registerWith#0;class#FlutterBluePlugin#0" />
+                <element signature="method#FlutterBluePlugin#0;class#FlutterBluePlugin#0" />
+                <element signature="e#4121#4247#1" />
+                <element signature="e#4312#4507#1" />
+                <element signature="e#4535#5793#1" />
+                <element signature="e#4643#5577#0" />
+                <element signature="e#4703#5559#0" />
+                <element signature="e#5606#5699#0" />
+                <element signature="e#5827#5924#1" />
+                <element signature="e#5951#6052#1" />
+                <element signature="e#6084#6775#1" />
+                <element signature="e#6256#6697#1" />
+                <element signature="e#6806#6910#1" />
+                <element signature="e#6952#7465#1" />
+                <element signature="e#7220#7293#1" />
+                <element signature="e#7495#9532#1" />
+                <element signature="e#7612#7721#0" />
+                <element signature="e#7763#7882#0" />
+                <element signature="e#8275#8424#1" />
+                <element signature="e#8596#8905#1" />
+                <element signature="e#8661#8730#1" />
+                <element signature="e#8736#8859#1" />
+                <element signature="e#9083#9243#1" />
+                <element signature="e#9249#9379#1" />
+                <element signature="e#9565#10252#1" />
+                <element signature="e#9916#10177#1" />
+                <element signature="e#10092#10159#1" />
+                <element signature="e#10286#10803#1" />
+                <element signature="e#10550#10651#0" />
+                <element signature="e#10672#10766#0" />
+                <element signature="e#11430#12134#1" />
+                <element signature="e#11511#11982#0" />
+                <element signature="e#11797#11903#1" />
+                <element signature="e#12003#12097#0" />
+                <element signature="e#12175#13463#1" />
+                <element signature="e#12303#12423#0" />
+                <element signature="e#12465#12584#0" />
+                <element signature="e#12708#12960#0" />
+                <element signature="e#12981#13113#0" />
+                <element signature="e#13182#13243#1" />
+                <element signature="e#13249#13426#1" />
+                <element signature="e#13500#14908#1" />
+                <element signature="e#13624#13740#0" />
+                <element signature="e#13782#13901#0" />
+                <element signature="e#14077#14425#0" />
+                <element signature="e#14446#14574#0" />
+                <element signature="e#14635#14696#1" />
+                <element signature="e#14702#14871#1" />
+                <element signature="e#15234#15456#1" />
+                <element signature="e#15297#15438#1" />
+                <element signature="e#15536#15657#0" />
+                <element signature="e#15699#15818#0" />
+                <element signature="e#15942#16194#0" />
+                <element signature="e#16215#16348#0" />
+                <element signature="e#16599#16739#1" />
+                <element signature="e#16897#17017#1" />
+                <element signature="e#17023#17139#1" />
+                <element signature="e#17161#18820#0" />
+                <element signature="e#17539#17619#1" />
+                <element signature="e#18841#18923#0" />
+                <element signature="e#18994#19141#1" />
+                <element signature="e#19255#20872#1" />
+                <element signature="e#19380#19497#0" />
+                <element signature="e#19539#19658#0" />
+                <element signature="e#19834#20182#0" />
+                <element signature="e#20203#20332#0" />
+                <element signature="e#20457#20590#1" />
+                <element signature="e#20653#20796#1" />
+                <element signature="e#20910#23950#1" />
+                <element signature="e#21035#21152#0" />
+                <element signature="e#21194#21313#0" />
+                <element signature="e#21492#22030#0" />
+                <element signature="e#21849#22012#1" />
+                <element signature="e#22051#22180#0" />
+                <element signature="e#22261#23042#1" />
+                <element signature="e#22567#22740#1" />
+                <element signature="e#22778#22882#1" />
+                <element signature="e#22918#23024#1" />
+                <element signature="e#23048#23147#1" />
+                <element signature="e#23249#23435#1" />
+                <element signature="e#23489#23658#1" />
+                <element signature="e#23724#23874#1" />
+                <element signature="e#23976#24567#1" />
+                <element signature="e#24141#24399#1" />
+                <element signature="e#24405#24530#1" />
+                <element signature="e#24600#25857#1" />
+                <element signature="e#24717#24826#0" />
+                <element signature="e#24868#24987#0" />
+                <element signature="e#25045#25712#0" />
+                <element signature="e#25236#25516#1" />
+                <element signature="e#25288#25365#1" />
+                <element signature="e#25371#25494#1" />
+                <element signature="e#25522#25694#1" />
+                <element signature="e#25733#25819#0" />
+                <element signature="e#25880#25959#1" />
+                <element signature="method#onRequestPermissionsResult#0;class#FlutterBluePlugin#0" />
+                <element signature="e#26175#26599#1" />
+                <element signature="e#26247#26317#1" />
+                <element signature="e#26323#26564#1" />
+                <element signature="method#locateGatt#0;class#FlutterBluePlugin#0" />
+                <element signature="e#26812#26915#1" />
+                <element signature="e#26921#26963#1" />
+                <element signature="method#locateCharacteristic#0;class#FlutterBluePlugin#0" />
+                <element signature="e#27280#27390#1" />
+                <element signature="e#27490#27916#1" />
+                <element signature="e#27572#27726#1" />
+                <element signature="e#27651#27712#1" />
+                <element signature="e#27769#27906#1" />
+                <element signature="e#28171#28335#1" />
+                <element signature="method#locateDescriptor#0;class#FlutterBluePlugin#0" />
+                <element signature="e#28649#28819#1" />
+                <element signature="class#28905:30900" />
+                <element signature="class#29012:30463" />
+                <element signature="method#onReceive#0;class#29012:30463" />
+                <element signature="e#29257#30439#1" />
+                <element signature="e#29434#30421#0" />
+                <element signature="method#onListen#0;class#28905:30900" />
+                <element signature="method#onCancel#0;class#28905:30900" />
+                <element signature="method#startScan#0;class#FlutterBluePlugin#0" />
+                <element signature="e#31054#31366#0" />
+                <element signature="e#31208#31262#1" />
+                <element signature="e#31268#31322#1" />
+                <element signature="e#31387#31456#0" />
+                <element signature="method#stopScan#0;class#FlutterBluePlugin#0" />
+                <element signature="e#31561#31598#1" />
+                <element signature="e#31604#31641#1" />
+                <element signature="method#getScanCallback21#0;class#FlutterBluePlugin#0" />
+                <element signature="e#31793#32564#1" />
+                <element signature="class#31828:32553" />
+                <element signature="method#onScanResult#0;class#31828:32553" />
+                <element signature="method#onBatchScanResults#0;class#31828:32553" />
+                <element signature="method#startScan21#0;class#FlutterBluePlugin#0" />
+                <element signature="e#33118#33314#1" />
+                <element signature="method#stopScan21#0;class#FlutterBluePlugin#0" />
+                <element signature="method#getScanCallback18#0;class#FlutterBluePlugin#0" />
+                <element signature="e#33848#34316#1" />
+                <element signature="class#33883:34305" />
+                <element signature="method#onLeScan#0;class#33883:34305" />
+                <element signature="method#startScan18#0;class#FlutterBluePlugin#0" />
+                <element signature="e#34615#34687#1" />
+                <element signature="class#35060:42713" />
+                <element signature="method#onConnectionStateChange#0;class#35060:42713" />
+                <element signature="e#35368#35511#1" />
+                <element signature="e#35444#35497#1" />
+                <element signature="method#onServicesDiscovered#0;class#35060:42713" />
+                <element signature="e#36060#36150#1" />
+                <element signature="method#onCharacteristicRead#0;class#35060:42713" />
+                <element signature="method#onCharacteristicWrite#0;class#35060:42713" />
+                <element signature="method#onCharacteristicChanged#0;class#35060:42713" />
+                <element signature="method#onDescriptorRead#0;class#35060:42713" />
+                <element signature="e#39113#39228#1" />
+                <element signature="e#39234#39802#1" />
+                <element signature="e#39352#39788#1" />
+                <element signature="e#39430#39770#1" />
+                <element signature="e#39536#39748#1" />
+                <element signature="method#onDescriptorWrite#0;class#35060:42713" />
+                <element signature="e#41126#41550#1" />
+                <element signature="method#onReliableWriteCompleted#0;class#35060:42713" />
+                <element signature="method#onReadRemoteRssi#0;class#35060:42713" />
+                <element signature="method#onMtuChanged#0;class#35060:42713" />
+                <element signature="e#42187#42697#1" />
+                <element signature="e#42262#42683#1" />
+                <element signature="class#LogLevel#0;class#FlutterBluePlugin#0" />
+                <element signature="method#log#0;class#FlutterBluePlugin#0" />
+                <element signature="e#42922#42966#1" />
+                <element signature="method#invokeMethodUIThread#0;class#FlutterBluePlugin#0" />
+                <element signature="class#43109:43294" />
+                <element signature="e#43308#43405#0" />
+                <element signature="class#BluetoothDeviceCache#0;class#FlutterBluePlugin#0" />
+                <element signature="method#BluetoothDeviceCache#0;class#BluetoothDeviceCache#0;class#FlutterBluePlugin#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,7 +256,15 @@
       <find>_getRandomBytes</find>
       <find>writeData</find>
       <find>_bluetoothCharacteristic</find>
+      <find>retry</find>
+      <find>成功链接目标设备</find>
+      <find>写数据出错信息 1</find>
+      <find>dis</find>
+      <find>disc</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,8 +273,8 @@
         <option value="$PROJECT_DIR$/example/test/test" />
         <option value="$PROJECT_DIR$/example/test/test.dart" />
         <option value="$PROJECT_DIR$/example/lib/test.dart" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java" />
         <option value="$PROJECT_DIR$/example/lib/hexadecimal_str_to_int_array.dart" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
       </list>
     </option>
@@ -145,11 +284,14 @@
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,17 +325,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="E:/developer/java/android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/ktxh_v3.2.3" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -329,23 +470,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.83870965" visible="true" weight="0.18401287" />
-      <window_info id="Structure" order="3" sideWeight="0.16129032" side_tool="true" visible="true" weight="0.18401287" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6845361" visible="true" weight="0.18937768" />
+      <window_info id="Structure" order="3" sideWeight="0.31546393" side_tool="true" visible="true" weight="0.18937768" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.38068813" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.4617092" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Statistic" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3618202" />
       <window_info anchor="bottom" id="Freeline" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.75915647" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Gradle View" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -359,22 +499,6 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Codota" order="5" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
-          <line>112</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://D:/flutter/packages/flutter/lib/src/services/message_codecs.dart</url>
-          <line>559</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/example/android/app/src/main/java/com/pauldemarco/flutter_blue_example/MainActivity.java">
@@ -486,13 +610,6 @@
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/flutter/packages/flutter/lib/src/services/message_codecs.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="563" column="25" selection-start-line="563" selection-start-column="13" selection-end-line="563" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -693,13 +810,6 @@
     <entry file="file://$PROJECT_DIR$/ios/Classes/FlutterBluePlugin.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/lib/blue_info.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/Classes/FlutterBluePlugin.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -709,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/bluetooth_characteristic.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="103" column="43" lean-forward="true" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+        <state relative-caret-position="680">
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
           <folding>
             <element signature="e#767#832#0" />
             <element signature="e#972#980#0" />
@@ -740,17 +850,205 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/flutter/packages/flutter/lib/src/services/message_codecs.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="559" column="17" selection-start-line="559" selection-start-column="17" selection-end-line="559" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1493">
-          <caret line="353" column="26" lean-forward="true" selection-start-line="353" selection-start-column="26" selection-end-line="353" selection-end-column="26" />
+        <state relative-caret-position="-38">
+          <caret line="353" column="40" selection-start-line="353" selection-start-column="40" selection-end-line="353" selection-end-column="40" />
+          <folding>
+            <element signature="docComment;class#FlutterBluePlugin#0" />
+            <element signature="docComment;method#registerWith#0;class#FlutterBluePlugin#0" />
+            <element signature="method#registerWith#0;class#FlutterBluePlugin#0" />
+            <element signature="method#FlutterBluePlugin#0;class#FlutterBluePlugin#0" />
+            <element signature="e#4121#4247#1" />
+            <element signature="e#4312#4507#1" />
+            <element signature="e#4535#5793#1" />
+            <element signature="e#4643#5577#0" />
+            <element signature="e#4703#5559#0" />
+            <element signature="e#5606#5699#0" />
+            <element signature="e#5827#5924#1" />
+            <element signature="e#5951#6052#1" />
+            <element signature="e#6084#6775#1" />
+            <element signature="e#6256#6697#1" />
+            <element signature="e#6806#6910#1" />
+            <element signature="e#6952#7465#1" />
+            <element signature="e#7220#7293#1" />
+            <element signature="e#7495#9532#1" />
+            <element signature="e#7612#7721#0" />
+            <element signature="e#7763#7882#0" />
+            <element signature="e#8275#8424#1" />
+            <element signature="e#8596#8905#1" />
+            <element signature="e#8661#8730#1" />
+            <element signature="e#8736#8859#1" />
+            <element signature="e#9083#9243#1" />
+            <element signature="e#9249#9379#1" />
+            <element signature="e#9565#10252#1" />
+            <element signature="e#9916#10177#1" />
+            <element signature="e#10092#10159#1" />
+            <element signature="e#10286#10803#1" />
+            <element signature="e#10550#10651#0" />
+            <element signature="e#10672#10766#0" />
+            <element signature="e#11430#12134#1" />
+            <element signature="e#11511#11982#0" />
+            <element signature="e#11797#11903#1" />
+            <element signature="e#12003#12097#0" />
+            <element signature="e#12175#13463#1" />
+            <element signature="e#12303#12423#0" />
+            <element signature="e#12465#12584#0" />
+            <element signature="e#12708#12960#0" />
+            <element signature="e#12981#13113#0" />
+            <element signature="e#13182#13243#1" />
+            <element signature="e#13249#13426#1" />
+            <element signature="e#13500#14908#1" />
+            <element signature="e#13624#13740#0" />
+            <element signature="e#13782#13901#0" />
+            <element signature="e#14077#14425#0" />
+            <element signature="e#14446#14574#0" />
+            <element signature="e#14635#14696#1" />
+            <element signature="e#14702#14871#1" />
+            <element signature="e#15234#15456#1" />
+            <element signature="e#15297#15438#1" />
+            <element signature="e#15536#15657#0" />
+            <element signature="e#15699#15818#0" />
+            <element signature="e#15942#16194#0" />
+            <element signature="e#16215#16348#0" />
+            <element signature="e#16599#16739#1" />
+            <element signature="e#16897#17017#1" />
+            <element signature="e#17023#17139#1" />
+            <element signature="e#17161#18820#0" />
+            <element signature="e#17539#17619#1" />
+            <element signature="e#18841#18923#0" />
+            <element signature="e#18994#19141#1" />
+            <element signature="e#19255#20872#1" />
+            <element signature="e#19380#19497#0" />
+            <element signature="e#19539#19658#0" />
+            <element signature="e#19834#20182#0" />
+            <element signature="e#20203#20332#0" />
+            <element signature="e#20457#20590#1" />
+            <element signature="e#20653#20796#1" />
+            <element signature="e#20910#23950#1" />
+            <element signature="e#21035#21152#0" />
+            <element signature="e#21194#21313#0" />
+            <element signature="e#21492#22030#0" />
+            <element signature="e#21849#22012#1" />
+            <element signature="e#22051#22180#0" />
+            <element signature="e#22261#23042#1" />
+            <element signature="e#22567#22740#1" />
+            <element signature="e#22778#22882#1" />
+            <element signature="e#22918#23024#1" />
+            <element signature="e#23048#23147#1" />
+            <element signature="e#23249#23435#1" />
+            <element signature="e#23489#23658#1" />
+            <element signature="e#23724#23874#1" />
+            <element signature="e#23976#24567#1" />
+            <element signature="e#24141#24399#1" />
+            <element signature="e#24405#24530#1" />
+            <element signature="e#24600#25857#1" />
+            <element signature="e#24717#24826#0" />
+            <element signature="e#24868#24987#0" />
+            <element signature="e#25045#25712#0" />
+            <element signature="e#25236#25516#1" />
+            <element signature="e#25288#25365#1" />
+            <element signature="e#25371#25494#1" />
+            <element signature="e#25522#25694#1" />
+            <element signature="e#25733#25819#0" />
+            <element signature="e#25880#25959#1" />
+            <element signature="method#onRequestPermissionsResult#0;class#FlutterBluePlugin#0" />
+            <element signature="e#26175#26599#1" />
+            <element signature="e#26247#26317#1" />
+            <element signature="e#26323#26564#1" />
+            <element signature="method#locateGatt#0;class#FlutterBluePlugin#0" />
+            <element signature="e#26812#26915#1" />
+            <element signature="e#26921#26963#1" />
+            <element signature="method#locateCharacteristic#0;class#FlutterBluePlugin#0" />
+            <element signature="e#27280#27390#1" />
+            <element signature="e#27490#27916#1" />
+            <element signature="e#27572#27726#1" />
+            <element signature="e#27651#27712#1" />
+            <element signature="e#27769#27906#1" />
+            <element signature="e#28171#28335#1" />
+            <element signature="method#locateDescriptor#0;class#FlutterBluePlugin#0" />
+            <element signature="e#28649#28819#1" />
+            <element signature="class#28905:30900" />
+            <element signature="class#29012:30463" />
+            <element signature="method#onReceive#0;class#29012:30463" />
+            <element signature="e#29257#30439#1" />
+            <element signature="e#29434#30421#0" />
+            <element signature="method#onListen#0;class#28905:30900" />
+            <element signature="method#onCancel#0;class#28905:30900" />
+            <element signature="method#startScan#0;class#FlutterBluePlugin#0" />
+            <element signature="e#31054#31366#0" />
+            <element signature="e#31208#31262#1" />
+            <element signature="e#31268#31322#1" />
+            <element signature="e#31387#31456#0" />
+            <element signature="method#stopScan#0;class#FlutterBluePlugin#0" />
+            <element signature="e#31561#31598#1" />
+            <element signature="e#31604#31641#1" />
+            <element signature="method#getScanCallback21#0;class#FlutterBluePlugin#0" />
+            <element signature="e#31793#32564#1" />
+            <element signature="class#31828:32553" />
+            <element signature="method#onScanResult#0;class#31828:32553" />
+            <element signature="method#onBatchScanResults#0;class#31828:32553" />
+            <element signature="method#startScan21#0;class#FlutterBluePlugin#0" />
+            <element signature="e#33118#33314#1" />
+            <element signature="method#stopScan21#0;class#FlutterBluePlugin#0" />
+            <element signature="method#getScanCallback18#0;class#FlutterBluePlugin#0" />
+            <element signature="e#33848#34316#1" />
+            <element signature="class#33883:34305" />
+            <element signature="method#onLeScan#0;class#33883:34305" />
+            <element signature="method#startScan18#0;class#FlutterBluePlugin#0" />
+            <element signature="e#34615#34687#1" />
+            <element signature="class#35060:42713" />
+            <element signature="method#onConnectionStateChange#0;class#35060:42713" />
+            <element signature="e#35368#35511#1" />
+            <element signature="e#35444#35497#1" />
+            <element signature="method#onServicesDiscovered#0;class#35060:42713" />
+            <element signature="e#36060#36150#1" />
+            <element signature="method#onCharacteristicRead#0;class#35060:42713" />
+            <element signature="method#onCharacteristicWrite#0;class#35060:42713" />
+            <element signature="method#onCharacteristicChanged#0;class#35060:42713" />
+            <element signature="method#onDescriptorRead#0;class#35060:42713" />
+            <element signature="e#39113#39228#1" />
+            <element signature="e#39234#39802#1" />
+            <element signature="e#39352#39788#1" />
+            <element signature="e#39430#39770#1" />
+            <element signature="e#39536#39748#1" />
+            <element signature="method#onDescriptorWrite#0;class#35060:42713" />
+            <element signature="e#41126#41550#1" />
+            <element signature="method#onReliableWriteCompleted#0;class#35060:42713" />
+            <element signature="method#onReadRemoteRssi#0;class#35060:42713" />
+            <element signature="method#onMtuChanged#0;class#35060:42713" />
+            <element signature="e#42187#42697#1" />
+            <element signature="e#42262#42683#1" />
+            <element signature="class#LogLevel#0;class#FlutterBluePlugin#0" />
+            <element signature="method#log#0;class#FlutterBluePlugin#0" />
+            <element signature="e#42922#42966#1" />
+            <element signature="method#invokeMethodUIThread#0;class#FlutterBluePlugin#0" />
+            <element signature="class#43109:43294" />
+            <element signature="e#43308#43405#0" />
+            <element signature="class#BluetoothDeviceCache#0;class#FlutterBluePlugin#0" />
+            <element signature="method#BluetoothDeviceCache#0;class#BluetoothDeviceCache#0;class#FlutterBluePlugin#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/blue_info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="243" column="55" selection-start-line="243" selection-start-column="55" selection-end-line="243" selection-end-column="55" />
+        <state relative-caret-position="85">
+          <caret line="181" column="62" selection-start-line="181" selection-start-column="62" selection-end-line="181" selection-end-column="62" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

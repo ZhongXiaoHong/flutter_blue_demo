@@ -53,7 +53,7 @@ class _TestPageState extends State<TestPage> {
       "486df47a0c28f5771e4e30324441cd41608733632a514677e18224d2851730334441490aa503282e6a4aaff4e9430c1a5dfb30344441e9e6542f13d982bfccd2a6448efe21cb30354441e21c01bdeb6875e329a35a808efd9ea94646";
 
   List keyContentInts;
-  BluetoothCharacteristic _bluetoothCharacteristic;
+  BluetoothCharacteristic _writeCharacteristic,_notifyCharacteristic;
   BluetoothService _bluetoothService;
 
   bool findTagetCharacter;
@@ -146,14 +146,20 @@ class _TestPageState extends State<TestPage> {
                               _bluetoothService.characteristics;
 
                           for (int i = 0; i < characteristicList.length; i++) {
-                            _bluetoothCharacteristic = characteristicList[i];
+                            BluetoothCharacteristic _bluetoothCharacteristic = characteristicList[i];
                             //'49535343-1E4D-4BD9-BA61-23C647249616' 通知的
                             if ('49535343-8841-43F4-A8D4-ECBE34729BB3'
                                     .toLowerCase() ==
                                 _bluetoothCharacteristic.uuid.toString()) {
                               findTagetCharacter = true;
+                              _writeCharacteristic = _bluetoothCharacteristic;
                               print('发现目标写特征');
-                              break;
+
+                            }else  if('49535343-1E4D-4BD9-BA61-23C647249616'.toLowerCase() ==
+                                _bluetoothCharacteristic.uuid.toString()){
+
+                              _notifyCharacteristic = _bluetoothCharacteristic;
+                              print('发现目标通知特征');
                             }
                           }
 
@@ -171,12 +177,12 @@ class _TestPageState extends State<TestPage> {
                     Text('发现服务', style: TextStyle(color: Colors.blueAccent))),
             FlatButton(
                 onPressed: () async {
-                  await _bluetoothCharacteristic
+                  await _notifyCharacteristic
                       .setNotifyValue(true); //TODO 设置可通知
-                  _bluetoothCharacteristic.value.listen((value) {
+                  _notifyCharacteristic.value.listen((value) {
                     // do something with new value
-                    print('设置通知回调');
-                    //   writeData();
+                    print('通知回调了');
+                     //  writeData();
                   });
                   print("设置可通知");
                 },
@@ -209,7 +215,7 @@ class _TestPageState extends State<TestPage> {
     }
     print("准备写第$times次数据");
     new Future.delayed(Duration(milliseconds: time), () {
-      _bluetoothCharacteristic
+      _writeCharacteristic
           .write(Hexadecimal.covert().sublist((times - 1) * 20, (times - 1) * 20 + 20))
           .then((value) {
         print("写完第$times次数据");

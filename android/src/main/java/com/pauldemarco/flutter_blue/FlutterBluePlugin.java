@@ -208,6 +208,7 @@ public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsR
                 if (mDevices.containsKey(deviceId) && !isConnected) {
                     if (mDevices.get(deviceId).gatt.connect()) {
                         result.success(null);
+                        Log.d("FlutterBluePlugin","connected previously now disconnected,reconnect");
                     } else {
                         result.error("reconnect_error", "error when reconnecting to device", null);
                     }
@@ -221,7 +222,9 @@ public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsR
                 } else {
                     gattServer = device.connectGatt(activity, options.getAndroidAutoConnect(), mGattCallback);
                 }
+
                 mDevices.put(deviceId, new BluetoothDeviceCache(gattServer));
+                Log.d("FlutterBluePlugin"," New request, connect---"+  mDevices.get(deviceId).hashCode());
                 result.success(null);
                 break;
             }
@@ -258,6 +261,11 @@ public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsR
                 String deviceId = (String) call.arguments;
                 try {
                     BluetoothGatt gatt = locateGatt(deviceId);
+                    Field mServiceDield = gatt.getClass().getDeclaredField("mService");
+                    mServiceDield.setAccessible(true);
+                    Object obj = mServiceDield.get(gatt);
+                    Log.d("FlutterBluePlugin","      Object obj = mServiceDield.get(gatt) -"+obj==null?"null":"obj");
+
                     if (gatt.discoverServices()) {
                         result.success(null);
                     } else {
@@ -345,7 +353,13 @@ public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsR
 
             case "writeCharacteristic": {
                 byte[] data = call.arguments();
-
+                List<BluetoothDevice> devices = mBluetoothManager.getConnectedDevices(BluetoothProfile.GATT);
+                System.out.println("每次写之前检查当前已连接的设备数量 = "+devices!=null?devices.size():0);
+                if(devices!=null){
+                    for (int i = 0; i < devices.size(); i++) {
+                        System.out.println("第"+i+"已连接的设备Id = "+devices.get(i)!=null?devices.get(i).getName():"null");
+                    }
+                }
                 Protos.WriteCharacteristicRequest request;
                 try {
                     request = Protos.WriteCharacteristicRequest.newBuilder().mergeFrom(data).build();
